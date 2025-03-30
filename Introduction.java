@@ -12,14 +12,20 @@ public class Introduction {
       //create a class
 
       class Student{
-            int rollNo[] = new int[5];
-            String name[] = new String[5];
-            float marks[] = new float[5];
+            int rollNo;
+            String name;
+            float marks;
       }
+
+      /*
+      variable inside the object is called instance variable
+      Example => syso(student.rollno)
+      */
 
     public static void main(String[] args) {
       Student Aniket[] = new Student[5];
-      Student Aniket = new Student();
+      Student Aniket;
+      System.out.println(Aniket.rollNo);
 
       //Aniket is a reference variable of STudent class
     }
