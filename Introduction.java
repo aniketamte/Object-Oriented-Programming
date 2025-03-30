@@ -29,6 +29,12 @@ public class Introduction {
             this.name = "Aniket Amte";
             this.marks = 90;
         }
+
+        Student(int rollNo, String name, float marks) {
+            this.rollNo = rollNo;
+            this.name = name;
+            this.marks = marks;
+        }
     }
 
     /*
@@ -42,9 +48,9 @@ public class Introduction {
 
         Student students[] = new Student[5];
         //new = dynamically allocates memory and return a reference variable to it
-        Student aniket = new Student();
-        aniket.changeName("Aniket Vijay Amte");
-        aniket.greeting();
+        Student aniket = new Student(20, "AVA", 45.6f);
+        // aniket.changeName("Aniket Vijay Amte");
+        // aniket.greeting();
 
         //System.out.println(Arrays.toString(aniket.rollNo));
 
