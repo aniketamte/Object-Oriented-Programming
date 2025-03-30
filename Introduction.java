@@ -30,10 +30,16 @@ public class Introduction {
           this.marks = other.marks;
         }
 
+        // Student(){
+        //     this.rollNo = 17;
+        //     this.name = "Aniket Amte";
+        //     this.marks = 90;
+        // }
+
         Student(){
-            this.rollNo = 17;
-            this.name = "Aniket Amte";
-            this.marks = 90;
+          //this is how you call constructor from another constructor
+
+          this(13, "default person", 100.0f);
         }
 
         Student(int rollNo, String name, float marks) {
@@ -47,7 +53,8 @@ public class Introduction {
       variable inside the object is called instance variable
       Example => syso(student.rollno)
      */
-    public static void main(String[] args) {
+    
+     public static void main(String[] args) {
         int rollNo[] = new int[5];
         String name[] = new String[5];
         float marks[] = new float[5];
@@ -72,5 +79,14 @@ public class Introduction {
 
         Student random = new Student(aniket);
         System.out.println(random.name);
+
+        Student random2 = new Student();
+        System.out.println(random2.name);
+
+        Student one = new Student();
+        Student two = one;
+
+        one.name = "Something Something";
+        System.out.println(two.name);
     }
 }
