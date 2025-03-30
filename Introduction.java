@@ -24,6 +24,12 @@ public class Introduction {
         }
 
         //Constructor Start
+        Student (Student other){
+          name = other.name;
+          this.rollNo = other.rollNo;
+          this.marks = other.marks;
+        }
+
         Student(){
             this.rollNo = 17;
             this.name = "Aniket Amte";
@@ -64,5 +70,7 @@ public class Introduction {
         System.out.println("Name : " + aniket.name);
         System.out.println("Marks : " + aniket.marks);
 
+        Student random = new Student(aniket);
+        System.out.println(random.name);
     }
 }
