@@ -1,4 +1,7 @@
 
+import java.util.Arrays;
+
+
 public class Introduction {
 
     /*
@@ -24,8 +27,8 @@ public class Introduction {
 
     public static void main(String[] args) {
       Student Aniket[] = new Student[5];
-      Student Aniket;
-      System.out.println(Aniket.rollNo);
+      Student aniket;
+      System.out.println(Arrays.toString(Aniket));
 
       //Aniket is a reference variable of STudent class
     }
