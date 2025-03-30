@@ -31,6 +31,11 @@ public class Introduction {
         //System.out.println(Arrays.toString(aniket.rollNo));
 
         //Aniket is a reference variable of STudent class
+        
+        aniket.rollNo = 17;
+        aniket.name = "Aniket Amte";
+        aniket.marks = 90;
+
         System.out.println(aniket.rollNo);
         System.out.println(aniket.name);
         System.out.println(aniket.marks);
