@@ -36,8 +36,8 @@ public class Introduction {
         aniket.name = "Aniket Amte";
         aniket.marks = 90;
 
-        System.out.println(aniket.rollNo);
-        System.out.println(aniket.name);
-        System.out.println(aniket.marks);
+        System.out.println("Roll No : " + aniket.rollNo);
+        System.out.println("Name : " + aniket.name);
+        System.out.println("Marks : " + aniket.marks);
     }
 }
