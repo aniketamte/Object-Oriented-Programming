@@ -14,6 +14,13 @@ public class Introduction {
         int rollNo;
         String name;
         float marks;
+
+        //Constructor Start
+        Student(){
+            this.rollNo = 17;
+            this.name = "Aniket Amte";
+            this.marks = 90;
+        }
     }
 
     /*
@@ -28,16 +35,18 @@ public class Introduction {
         Student students[] = new Student[5];
         //new = dynamically allocates memory and return a reference variable to it
         Student aniket = new Student();
+
         //System.out.println(Arrays.toString(aniket.rollNo));
 
         //Aniket is a reference variable of STudent class
         
-        aniket.rollNo = 17;
-        aniket.name = "Aniket Amte";
-        aniket.marks = 90;
+        // aniket.rollNo = 17;
+        // aniket.name = "Aniket Amte";
+        // aniket.marks = 90;
 
         System.out.println("Roll No : " + aniket.rollNo);
         System.out.println("Name : " + aniket.name);
         System.out.println("Marks : " + aniket.marks);
+
     }
 }
