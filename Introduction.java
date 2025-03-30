@@ -15,6 +15,14 @@ public class Introduction {
         String name;
         float marks;
 
+        void greeting(){
+          System.out.println("Hello my Name is : " + name);
+        }
+
+        void changeName(String newName){
+          name = newName;
+        }
+
         //Constructor Start
         Student(){
             this.rollNo = 17;
@@ -35,6 +43,8 @@ public class Introduction {
         Student students[] = new Student[5];
         //new = dynamically allocates memory and return a reference variable to it
         Student aniket = new Student();
+        aniket.changeName("Aniket Vijay Amte");
+        aniket.greeting();
 
         //System.out.println(Arrays.toString(aniket.rollNo));
 
