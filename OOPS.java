@@ -1,5 +1,6 @@
 public class OOPS {
       public static void main(String[] args) {
+            System.out.println("Classes and object started");
             Pen p1 = new Pen();  //Created a pen object called p1
             p1.setColor("Blue");
             System.out.println(p1.color);
@@ -10,16 +11,20 @@ public class OOPS {
             p1.setColor("Yellow");
             System.out.println(p1.color);
 
+            System.out.println("Classes and object ended");
 
             //Using access modifier
 
+            System.out.println("access modifier started");
             BankAccount myAcc = new BankAccount();
             myAcc.username = "aniketamte";
             //myAcc.password = "123456";  <== Didnot use like this
             myAcc.setPassword("lcdjkdv");
+            System.out.println("access modifier ended");
 
             //Getters and setters
 
+            System.out.println("Getters and setters started");
             Pens p2 = new Pens();
             p2.setColor("Black");
             System.out.println(p2.getColor());
@@ -27,6 +32,13 @@ public class OOPS {
             System.out.println(p2.getTip());
             p2.setColor("White");
             System.out.println(p2.getColor());
+
+            System.out.println("Getters and setters ended");
+
+            System.out.println("Constructor Started");
+            students s2 = new students("Aniket");
+            System.out.println(s2.name);
+            System.out.println("Constructor ended");
       }
 }
 
@@ -117,3 +129,12 @@ class Pens {
   * These are only called once, at object creation.
   * Memory allocation happens when constructor is called.
   */
+
+  class students{
+      String name;
+      int roll;
+
+      students(String name){
+            this.name = name;
+      }
+  }
