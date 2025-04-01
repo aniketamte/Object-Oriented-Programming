@@ -73,4 +73,20 @@ class Student{
   * this -> this keyword is used to refer to the current object
   */
 
-  
+class Pens {
+
+    String color;
+    int tip;
+
+    String getColor() {
+      return this.color;
+    }
+    
+    void setColor(String newColor) {
+        color = newColor;
+    }
+
+    void setTip(int newTip) {
+        tip = newTip;
+    }
+}
