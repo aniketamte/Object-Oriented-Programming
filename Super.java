@@ -1,4 +1,13 @@
+/*
+ * ### The super Keyword
+ * The super keyword is used to refer to the parent class and can be used to:
 
+     ->Call the parent class constructor.
+
+     ->Call the parent class method.
+
+     ->Access the parent class variable.
+ */
 public class Super {
 
     public static void main(String[] args) {
@@ -8,6 +17,8 @@ public class Super {
 }
 
 class Animal {
+
+    
 
     Animal() {
         System.out.println("Animal constructor called.");
