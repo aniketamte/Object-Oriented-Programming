@@ -9,6 +9,14 @@ public class OOPS {
 
             p1.setColor("Yellow");
             System.out.println(p1.color);
+
+
+            //Using access modifier
+
+            BankAccount myAcc = new BankAccount();
+            myAcc.username = "aniketamte";
+            //myAcc.password = "123456";  <== Didnot use like this
+            myAcc.setPassword("lcdjkdv");
       }
 }
 
@@ -48,4 +56,10 @@ class Student{
  * 4) Public - Yes - Yes - Yes - Yes
  */
 
- 
+ class BankAccount {
+      public String username;
+      private String password;
+      public void setPassword( String pwd){
+            password = pwd;
+      }
+ }
