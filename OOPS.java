@@ -63,3 +63,14 @@ class Student{
             password = pwd;
       }
  }
+
+ /*
+  * Getters and Setters
+   
+  * Get -> To return the value
+  * Set -> To modify(update) the value
+
+  * this -> this keyword is used to refer to the current object
+  */
+
+  
