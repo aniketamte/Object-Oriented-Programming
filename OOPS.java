@@ -17,6 +17,16 @@ public class OOPS {
             myAcc.username = "aniketamte";
             //myAcc.password = "123456";  <== Didnot use like this
             myAcc.setPassword("lcdjkdv");
+
+            //Getters and setters
+
+            Pens p2 = new Pens();
+            p2.setColor("Black");
+            System.out.println(p2.getColor());
+            p2.setTip(50);
+            System.out.println(p2.getTip());
+            p2.setColor("White");
+            System.out.println(p2.getColor());
       }
 }
 
@@ -75,18 +85,22 @@ class Student{
 
 class Pens {
 
-    String color;
-    int tip;
+    private String color;
+    private int tip;
 
     String getColor() {
       return this.color;
     }
-    
+
+    int getTip(){
+      return this.tip;
+    }
+
     void setColor(String newColor) {
-        color = newColor;
+        this.color = newColor;
     }
 
     void setTip(int newTip) {
-        tip = newTip;
+        this.tip = newTip;
     }
 }
