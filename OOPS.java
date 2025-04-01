@@ -12,6 +12,8 @@ public class OOPS {
       }
 }
 
+//classes and Objects
+
 class Pen {
       String color;
       int tip;
@@ -34,3 +36,16 @@ class Student{
             percentage = (phy + chem + math) / 3;
       }
 }
+
+//Access Modifiers
+
+/*
+ * Access Modifier - within class - within package - outside packeage by subclass only - outside package
+ * 
+ * 1) Private - yes - No - No - No
+ * 2) Default - Yes - Yes - No - No
+ * 3) Protected - Yes - Yes - Yes - No
+ * 4) Public - Yes - Yes - Yes - Yes
+ */
+
+ 
