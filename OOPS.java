@@ -104,3 +104,16 @@ class Pens {
         this.tip = newTip;
     }
 }
+
+/*
+ * Encapsulation ---> It is defined as the wrapping up of data and methods under a single unit. It also implements data hidding.
+ */
+
+ /*
+  * Constructors ==> It is a special method which is invoked automatically at the time of object creation.
+
+  * Constructor hava same name as class or structure
+  * It dont have a return type not even void.
+  * These are only called once, at object creation.
+  * Memory allocation happens when constructor is called.
+  */
